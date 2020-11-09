@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+ <html>
+  <head>
+<link rel="icon" type="image" href="images/babydress.png" />
+<meta name="description" content="This is a website selling shirts, and other accessories" />
+		
+<meta name="keywords" content="shirt, pants, color, pink, violet, blue, turquoise, white, orders, bows, rock, big, I, size, small,
+medium, large, little, lil, miss, diva, kindergarten, im, a, cheerleader, this, is, my, inside, voice" />
+		
+<meta name="author" content="Triston Lewis" />
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <title> London's "Oh So Sassy Boutique" </title>
+ 
+  <style>
+  body {background-color:black;
+  font-family: times, sans-serif;
+		background-image: url("bckimages/dotbg.gif")
+		}
+#main-page {overflow:hidden;}
+  
+div.navbar{font-size: 20pt;
+		 text-align: left;
+		 }
+		 
+a:link {color:white;
+		text-decoration:none;}
+/* Start of navigation bar */
+ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #e066ff;
+	position: absolute;
+	margin: 10px 0px 10px 0px;
+	
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 18px 144px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+/* #ff0066 is hot pink color code */
+.active {
+    background-color: pink;
+}
+
+div.banner {color:pink; 
+			text-align:center; 
+			font-size: 50pt; }
+  
+  input[type=text] {
+    width: 200px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+	background-image: url('images/dresspink.jpg');
+    background-position: 5px 5px;
+    background-repeat: no-repeat;
+	background-size: 30px 30px;
+    padding: 12px 20px 12px 40px;
+	margin: -50px 10px 10px 1620px;
+	position: absolute;
+	
+}
+
+input[type=text]:focus {
+    width: 15.0%;
+}
+ 
+/* !!!!!!!!!!!!!!!!!!!!!!!!slider css start!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+@import url(http://fonts.googleapis.com/css?family=Josefin+Slab:100);
+
+.slider-wrap {
+  width: 1900px;
+  height: 200px;
+}
+.slider {
+  overflow-x: scroll;
+}
+.holder {
+  width: 300%;
+}
+.slide {
+  float: left;
+  width: 700px;
+  height: 700px;
+  position: relative;
+  background-position: -100px 0;
+}
+.clothingdesc {
+  position: absolute;
+  color: pink;
+  font-size: 50px;
+  bottom: 15px;
+  left: 15px;
+  font-family: 'Josefin Slab', serif;
+  font-weight: 100;
+}
+#slide-0 {
+  background-image: url(images/irockbigbows.jpg);
+}
+#slide-1 {
+  background-image: url(images/kindergartenshirt.jpg);
+}
+#slide-2 {
+  background-image: url(images/lilmissdiva.jpg);
+}
+#slide-3 {
+  background-image: url(images/imacheerleader.jpg);
+}
+#slide-4 {
+  background-image: url(images/ca.jpg);
+}
+#slide-5 {
+  background-image: url(images/candycorncutie.jpg);
+}
+#slide-6 {
+  background-image: url(images/repunshirt.jpg);
+}
+#slide-7 {
+  background-image: url(images/owlshirt.jpg);
+}
+
+
+.slide:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40%;
+  background: linear-gradient(transparent, black);
+}
+.slider-nav {
+  text-align: center;
+  margin: 10px 0 0 0;
+}
+.slider-nav a {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  background: #ddd;
+  overflow: hidden;
+  text-indent: -9999px;
+  border-radius: 50%;
+}
+.slider-nav a.active {
+  background: #999;
+}
+  </style>
+  
+  
+  </head>
+<body>
+<div style="background-color:black;">
+<div class="banner">London's "Oh So Sassy Boutique"</div>
+
+<div class="navbar">
+<ul>
+  <li><a class="active" href="index.html">Home</a></li>
+  <li><a href="storepage.html">Store</a></li>
+  <li><a href="customorder.html">Custom Orders</a></li>
+  <li><a href="contactus.html">Contact us</a></li>
+  <li><a href="about.html">About</a></li>
+</ul>
+<input type="text" name="search" placeholder="Search ">
+<img src="" style="width: 1px; height: 72px;">
+
+</div>
+</div>
+
+<div class="slider-wrap">
+  <div class="slider" id="slider">
+    <div class="holder">
+      <div class="slide" id="slide-0"><span class="clothingdesc">"I Rock Big Bows"</span></div>
+       <div class="slide" id="slide-1"><span class="clothingdesc">"Kindergarten"</span></div>
+        <div class="slide" id="slide-2"><span class="clothingdesc">"Lil Miss Diva"</span></div>
+		 <div class="slide" id="slide-3"><span class="clothingdesc">"I'M A CHEERLEADER This is my inside Voice"</span></div>
+		  <div class="slide" id="slide-4"><span class="clothingdesc">Inital With Logo "CA"</span></div>
+		   <div class="slide" id="slide-5"><span class="clothingdesc">"Candy Corn Cutie</span></div>
+		    <div class="slide" id="slide-6"><span class="clothingdesc">Repunzel Design</span></div>
+			 <div class="slide" id="slide-7"><span class="clothingdesc">Owl Design</span></div>
+			  
+			   
+    </div>
+  </div>
+  <nav class="slider-nav">
+    <a href="#slide-0" class="active">Slide 0</a> 
+    <a href="#slide-1">Slide 1</a> 
+    <a href="#slide-2">Slide 2</a> 
+  </nav>
+</div>
+
+<script>
+var slider = {
+  
+  // Not sure if keeping element collections like this
+  // together is useful or not.
+  el: {
+    slider: $("#slider"),
+    allSlides: $(".slide"),
+    sliderNav: $(".slider-nav"),
+    allNavButtons: $(".slider-nav > a")
+  },
+  
+  timing: 800,
+  slideWidth: 300, // could measure this
+ 
+  // In this simple example, might just move the
+  // binding here to the init function
+  init: function() {
+    this.bindUIEvents();
+  },
+  
+  bindUIEvents: function() {
+    // You can either manually scroll...
+    this.el.slider.on("scroll", function(event) {
+      slider.moveSlidePosition(event);
+    });
+    // ... or click a thing
+    this.el.sliderNav.on("click", "a", function(event) {
+      slider.handleNavClick(event, this);
+    });
+    // What would be cool is if it had touch
+    // events where you could swipe but it
+    // also kinda snapped into place.
+  },
+  
+  moveSlidePosition: function(event) {
+    // Magic Numbers =(
+    this.el.allSlides.css({
+      "background-position": $(event.target).scrollLeft()/6-100+ "px 0"
+    });  
+  },
+  
+  handleNavClick: function(event, el) {
+    event.preventDefault();
+    var position = $(el).attr("href").split("-").pop();
+    
+    this.el.slider.animate({
+      scrollLeft: position * this.slideWidth
+    }, this.timing);
+    
+    this.changeActiveNav(el);
+  },
+  
+  changeActiveNav: function(el) {
+    this.el.allNavButtons.removeClass("active");
+    $(el).addClass("active");
+  }
+  
+};
+
+slider.init();
+
+// http://codepen.io/BaylorRae/pen/ImGBC
+// Originally added click links, so I ported over and re-wrote
+</script>
+
+
+
+
+
+</body>
+</html>

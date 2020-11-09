@@ -1,0 +1,53 @@
+<DOCTYPE! html>
+<html>
+
+<head>
+<title>
+
+</title>
+<style>
+ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #e066ff;
+	position: absolute;
+	margin: 10px 0px 10px 0px;
+	
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 18px 144px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+/* #ff0066 is hot pink color code */
+.active {
+    background-color: pink;
+}
+</style>
+
+</head>
+<body>
+<div class="navbar">
+<ul>
+  <li><a class="active" href="homepage.html">Home</a></li>
+  <li><a href="storepage.html">Store</a></li>
+  <li><a href="customorder.html">Custom Orders</a></li>
+  <li><a href="contactus.html">Contact us</a></li>
+  <li><a href="about.html">About</a></li>
+</ul>
+</div>
+
+</body>
+</html>

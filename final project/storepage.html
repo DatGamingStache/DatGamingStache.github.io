@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+ <html>
+  <head>
+  <link rel="icon" type="image" href="images/babydress.png" />
+<meta name="description" content="This is a store page for london's oh so sassy boutique. "/>
+
+<meta name="keywords" content="store, home, custom orders, contact us, about, londons, sassy, boutique, owl, shirt, checkout,
+tax, USD, usd, subtotal, shipping, cart, small, medium, large" />
+
+<meta name="author" content="Triston Lewis" />
+
+   <title> London's "Oh So Sassy Boutique"  </title>
+ <link rel="stylesheet" href="css/qunit.css" type="text/css" media="screen">
+  <style>
+  body {background-color:black;
+  font-family: times, sans-serif;
+		background-image: url("bckimages/dotbg.gif")}
+
+#main-page {overflow:hidden;}
+
+
+div.navbar{font-size: 20pt;
+		 text-align: left;
+		 }
+
+a:link {color:white;
+		text-decoration:none;}
+/* Start of navigation bar */
+ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #e066ff;
+	position: absolute;
+	margin: 10px 0px 10px 0px;
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 18px 144px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+/* #ff0066 is hot pink color code */
+.active {
+    background-color: pink;
+}
+/* change back to pink if turquoise isn't suitable */
+div.banner {color:pink;
+			text-align:center;
+			font-size: 50pt;
+			}
+
+.topsearch {
+    width: 200px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+	background-image: url('images/dresspink.jpg');
+    background-position: 5px 5px;
+    background-repeat: no-repeat;
+	background-size: 30px 30px;
+    padding: 12px 20px 12px 40px;
+	margin: -50px 10px 10px 1620px;
+	position: absolute;
+
+}
+
+.topsearch:focus {
+    width: 15.0%;
+}
+
+
+	 	.itemContainer{
+			width:100%;
+			float:left;
+		}
+
+		.itemContainer div{
+			float:left;
+			margin: 5px 20px 5px 20px ;
+		}
+
+		.itemContainer a{
+			text-decoration:none;
+		}
+
+		.cartHeaders{
+			width:100%;
+			float:left;
+		}
+
+		.cartHeaders div{
+			float:left;
+			margin: 5px 20px 5px 20px ;
+		}
+.checkoutitemsize {height:100px; width:100px;}
+
+.checkoutbutton {font-size: 20pt;
+background-color:violet;
+display: block;
+color: black;
+text-align: center;
+padding: 18px 144px;
+text-decoration: none;}
+
+</style>
+
+  </head>
+<body>
+<!-- take out the div if no black background for banner -->
+
+<div style="background-color:black;">
+<div class="banner">London's "Oh So Sassy Boutique"</div>
+
+<div class="navbar">
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a class="active"href="storepage.html">Store</a></li>
+  <li><a href="customorder.html">Custom Orders</a></li>
+  <li><a href="vinyl.html">Contact us</a></li>
+  <li><a href="about.html">About</a></li>
+</ul>
+<input class="topsearch" type="text" name="search" placeholder="Search ">
+<img src="" style="width: 1px; height: 72px;">
+
+</div>
+</div>
+<br />
+<div style="background-color:black;border: 5px solid hotpink; margin: 100px 0px 10px 625px; width:600px;">
+<h1 style="color:pink;text-align:center;">London's "Oh So..Sassy Boutique" Checkout page</h1>
+
+
+	<p style="color:White;text-align:center;">
+	Cart: <span class="simpleCart_total"></span> (<span class="simpleCart_quantity"></span> items)
+	<br>
+	<a href="javascript:;" class="simpleCart_empty">empty cart</a>
+	<br>
+	</p>
+
+
+<div style="color:White;text-align:center;">
+	<br>
+	SubTotal: <span class="simpleCart_total"></span> <br>
+	Tax: <span class="simpleCart_taxCost"></span> <br>
+	Shipping: <span class="simpleCart_shippingCost"></span> <br>
+	-----------------------------<br>
+	Final Total: <span class="simpleCart_finalTotal"></span> <br>
+<br />
+	<a href="javascript:;" class="checkoutbutton"><strong>Checkout</strong></a>
+	</div>
+</div> <!-- end of div for creating black background on shopping -->
+
+<!-- All the prices lists are not actual, just putting random prices -->
+<!-- Scroll bar due to length of items going down the page creates distortion of navbar -->
+<div style="color:white; background-color:black;text-align:center; border: 5px solid hotpink; width: 600px; margin: 20px 10px 10px 625px;">
+
+		<div class="simpleCart_shelfItem">
+	    <img alt="image of shirt with owl on it." src="images/owlshirt.jpg" class="checkoutitemsize" />
+	    <h2 class="item_name">Owl Shirt</h2>
+	 	<select class="item_size">
+	        <option value="Small"> Small </option>
+	        <option value="Medium"> Medium </option>
+	        <option value="Large"> Large </option>
+	    </select>
+	    <input type="text" value="1" class="item_Quantity">
+	    <span class="item_price">$10.99 </span>
+      <script src='https://js.ambercart.com/ambercart.js'></script><script>AmberCart.create_add_cart_button(2836,15824);</script>
+		<input type="button" class="item_add" value="add to cart">
+<br /> <br />
+		<img alt="image of shirt with 'I Rock Big Bows' on it." src="images/irockbigbows.jpg" class="checkoutitemsize" />
+	    <h2 class="item_name">I Rock Big Bows Shirt</h2>
+	 	<select class="item_size">
+	        <option value="Small"> Small </option>
+	        <option value="Medium"> Medium </option>
+	        <option value="Large"> Large </option>
+	    </select>
+	    <input type="text" value="1" class="item_Quantity">
+	    <span class="item_price">$20.99</span>
+		<input type="button" class="item_add" value="add to cart">
+<br /> <br />
+		<img alt="image of shirt with 'kindergarten' on it." src="images/kindergartenshirt.jpg" class="checkoutitemsize" />
+	    <h2 class="item_name">Kindergarten Shirt</h2>
+	 	<select class="item_size">
+	        <option value="Small"> Small </option>
+	        <option value="Medium"> Medium </option>
+	        <option value="Large"> Large </option>
+	    </select>
+	    <input type="text" value="1" class="item_Quantity">
+	    <span class="item_price">$35.99</span>
+		<input type="button" class="item_add" value="add to cart">
+<br /> <br />
+		<img src="images/lilmissdiva.jpg" class="checkoutitemsize" />
+	    <h2 alt="image of shirt with 'LiL Miss Diva Shirt' on it." class="item_name">LiL Miss Diva Shirt</h2>
+	 	<select class="item_size">
+	        <option value="Small"> Small </option>
+	        <option value="Medium"> Medium </option>
+	        <option value="Large"> Large </option>
+	    </select>
+	    <input type="text" value="1" class="item_Quantity">
+	    <span class="item_price">$40.99</span>
+		<input type="button" class="item_add" value="add to cart">
+<br /> <br />
+		<img alt="image of shirt with 'im a cheerleader and this is my inside voice' on it." src="images/imacheerleader.jpg" class="checkoutitemsize" />
+	    <h2 class="item_name">Im A Cheerleader Shirt</h2>
+	 	<select class="item_size">
+	        <option value="Small"> Small </option>
+	        <option value="Medium"> Medium </option>
+	        <option value="Large"> Large </option>
+	    </select>
+	    <input type="text" value="1" class="item_Quantity">
+	    <span class="item_price">$15.99</span>
+		<input type="button" class="item_add" value="add to cart">
+		</div>
+
+<br />
+
+
+
+</div>
+</div> <!-- end of div for creating black background on shopping -->
+<script src='https://js.ambercart.com/ambercart.js'></script><script>AmberCart.create_cart(2836);</script>
+<div style="background-color:White;">
+  bakaksdksd <script src='https://js.ambercart.com/ambercart.js'></script><script>AmberCart.create_cart(2836);</script>
+</div>
+
+    <script type="text/javascript" src="test.core.js"></script>
+
+
+</body>
+</html>

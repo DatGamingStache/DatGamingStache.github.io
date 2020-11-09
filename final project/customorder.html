@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+ <html>
+  <head>
+  <link rel="icon" type="image" href="images/babydress.png" />
+<meta name="description" content="This is the custom order page for londons oh so sassy boutique." />
+		
+<meta name="keywords" content="londons, home, store, custom, orders, contact, us, about, pick, one, front, back, shirt, custom, color, shirt color,
+design, area" />
+		
+<meta name="author" content="Triston Lewis" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <title> London's "Oh So Sassy Boutique"  </title>
+ 
+  <style>
+body {background-color:black;
+font-family: times, sans-serif;
+		background-image: url("bckimages/dotbg.gif")}
+		
+#main-page {overflow:hidden;}
+
+div.navbar{font-size: 20pt;
+		 text-align: left;
+		 }
+		 
+a:link {color:white;
+		text-decoration:none;}
+/* Start of navigation bar */
+ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #e066ff;
+	position: absolute;
+	margin: 10px 0px 10px 0px;
+	
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 18px 144px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+/* #ff0066 is hot pink color code */
+.active {
+    background-color: pink;
+}
+
+div.banner {color:pink; 
+			text-align:center; 
+			font-size: 50pt; }
+  
+.topsearch {
+    width: 200px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+	background-image: url('images/dresspink.jpg');
+    background-position: 5px 5px;
+    background-repeat: no-repeat;
+	background-size: 30px 30px;
+    padding: 12px 20px 12px 40px;
+	margin: -50px 10px 10px 1620px;
+	position: absolute;
+	
+}
+
+.topsearch:focus {
+    width: 15.0%;
+}
+
+
+  </style>
+  
+  
+  </head>
+<body>
+<div style="background-color:black;">
+<div class="banner">London's "Oh So Sassy Boutique"</div>
+
+<div class="navbar">
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="storepage.html">Store</a></li>
+  <li><a class="active" href="customorder.html">Custom Orders</a></li>
+  <li><a href="contactus.html">Contact us</a></li>
+  <li><a href="about.html">About</a></li>
+</ul>
+<input class="topsearch" type="text" name="search" placeholder="Search ">
+<img src="" style="width: 1px; height: 72px;">
+
+
+</div>
+</div>
+
+<div style="background-color: pink;">
+
+<form method="post" action="mailto:weasel0398@gmail.com" enctype="text/plain" style="color: hotpink; text-align:center; border: 10px solid hotpink; display: inline-block; font-size: 20pt;">
+<table width="1886px">
+<tr>
+ <td> <img alt="girl in bobcat girls wear bows and bling with blue bow, and blue pants with white polka dots." src="images/IMG_3183.jpg" width="500px" height="722px"/> </td>
+ 
+<td>
+ Pick One:
+ <input type="radio" name="Frontorback" value="Front of Shirt" /> Front of Shirt
+ <input type="radio" name="Frontorback" value="Back of Shirt" /> Back of Shirt
+
+  <br /> <br />
+  
+Custom Text On Shirt <input type="text" size="30" name="Customtext" maxlength="100" />
+
+ <br /> <br />
+ 
+<!-- Adding more colors --> 
+ Pick Your Preferred Shirt Color:
+ <br />
+  <select name="shirtcolor">
+  <option selected="Selected"> --- Select one --- </option>
+   <option>white </option>
+   <option>black </options>
+  </select>
+ <br /> <br />
+ 
+ Pick A Design For You're Shirt:
+ <br />
+  <select name="Design">
+  <option selected="Selected"> --- Select one --- </option>
+   <option>Name of design and shows image </option>
+   <option>Owl Design </options>
+   <option>Initial Design</option>
+   <option>I Rock Big Bows design</option>
+  </select>
+  
+ <br /> <br />
+ 
+   Pick A Size For You're Shirt:
+ <br />
+  <select name="Design">
+  <option selected="Selected"> --- Select one --- </option>
+   <option>Small</option>
+   <option>Medium</options>
+   <option>Large </option>
+  </select>
+
+   <br /> <br />
+   
+Area Of Design Placement:
+ <input type="radio" name="areaofdesign" value="Top" />Top
+ <input type="radio" name="areaofdesign" value="Right" />Right
+ <input type="radio" name="areaofdesign" value="Bottom" />Bottom
+ <input type="radio" name="areaofdesign" value="Left" />Left
+ <input type="radio" name="areaofdesign" value="Middle" />Middle
+
+  <br /> <br />
+  
+ Comments: <br />
+ <textarea name="cmt" cols="20" rows="10">
+ Thank you for comments!
+ </textarea>
+ <br /> <br />
+ 
+ <input type="submit" value="Submit Form" style="width:150px;"/>
+  <input type="reset" value="Reset Form" />
+</div>
+</td>
+<td> <img alt="girl with this diva means cammo design, on white shirt,and camo pants." src="images/IMG_3185.jpg" width="500px" height="722px"/> </td>
+</tr>
+</form>
+
+
+
+</body>
+</html>
