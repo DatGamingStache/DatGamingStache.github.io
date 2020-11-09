@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+ <head>
+<link rel="stylesheet" href="css/submit_javascript.css"/>
+<script src="js/submit_javascript.js"></script>
+	 	<style>
+
+		.button1 {position: absolute;
+		top: 25%;
+		left: 80%;}
+
+		.button2 {position: absolute;
+		top: 45%;
+		left: 80%;}
+
+		.button3 {position: absolute;
+		top: 65%;
+		left: 80%;}
+
+		body {
+		background-image: url("images/WOOD.jpg");
+		background-repeat: no-repeat;
+		background-size: auto;
+		}
+	 	 ul {list-style-type: none;
+	 		 margin: 0px 0px 0px 20px;
+
+	 		 background-color:;
+	 		 font-size: 25pt;
+	 		 overflow: hidden;}
+
+	 	li {float: left;}
+
+
+	 	li a {display: block;
+
+	 		  color: #333d4f;
+	 		  text-align: center;
+	 		  padding: 25px 125px 25px 150px;
+	 		  text-decoration: none;}
+
+
+	 	li a:hover {background-color:; text-decoration: underline;}
+
+
+
+
+}
+
+.layer {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: relative;
+}
+
+.alpha {
+	color: White;
+	background-color: rgba(0, 0, 0, 0.3);
+	border-radius: 10px;
+	position:absolute;
+		top:25%;
+		left:45%;
+	width: 470px;
+	height: 500px;
+	font-size:18pt;
+	font-family: 'Raleway', sans-serif;
+	margin:5px auto;
+	padding: 5px;
+
+	}
+
+.beta {
+font-size:18pt;
+font-family: 'Raleway', sans-serif;}
+
+/*Submit Box CSS */
+/* Below line is used for online Google font */
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+h2{
+background-color: white;
+padding: 30px 35px;
+margin: -10px -50px;
+text-align:center;
+border-radius: 10px 10px 0 0;
+}
+hr{
+margin: 10px -50px;
+border: 0;
+border-top: 1px solid #ccc;
+margin-bottom: 40px;
+}
+div.container{
+border-radius: 10px;
+background-color: white;
+position:absolute;
+		top:20%;
+		left:5%;
+width: 600px;
+height: 625px;
+margin:1px auto;
+font-family: 'Raleway', sans-serif;
+}
+div.main{
+width: 500px;
+height: 600px;
+padding: 10px 50px 10px;
+border: 2px solid gray;
+border-radius: 10px;
+font-family: raleway;
+float:left;
+
+}
+input[type=text]{
+width: 100%;
+height: 40px;
+padding: 5px;
+margin-bottom: 25px;
+margin-top: 5px;
+border: 2px solid #ccc;
+color: #4f4f4f;
+font-size: 16px;
+border-radius: 5px;
+}
+label{
+color: #464646;
+text-shadow: 0 1px 0 #fff;
+font-size: 14px;
+font-weight: bold;
+}
+textarea{
+color: #464646;
+text-shadow: 0 1px 0 #fff;
+font-size: 14px;
+font-weight: bold;
+}
+#btn_name{
+font-size: 16px;
+background: linear-gradient(#70eac1  5%, #43c69a 100%);
+border: 1px solid #0c0c0b;
+color: #4E4D4B;
+font-weight: bold;
+cursor: pointer;
+width: 47.5%;
+border-radius: 5px;
+margin-top:10px;
+margin-bottom:10px;
+padding: 7px 1;
+}
+#btn_id:hover,#btn_name:hover,#btn_class:hover,#btn_tag:hover{
+background: linear-gradient(#70eac1 5%, #43c69a 100%);
+}
+#btn_name,#btn_tag{
+margin-left: 10px;
+}
+/* End Submit Box CSS */
+
+	 	</style>
+  <title>River Expediton</title>
+
+  <script>
+
+//Submit Form Script
+// Submit form function
+function submit_by_name() {
+var name = document.getElementById("name").value;
+var email = document.getElementById("email").value;
+if (validation()) // Calling validation function
+{
+var x = document.getElementsByName('form_name');
+x[0].submit(); //form submission
+alert(" Name : " + name + " \n Email : " + email + " \n Form Name : " + document.getElementById("form_id").getAttribute("name") + "\n\n Form Submitted Successfully......");
+}
+}
+
+// Name and Email validation Function
+function validation() {
+var name = document.getElementById("name").value;
+var email = document.getElementById("email").value;
+var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+if (name === '' || email === '') {
+alert("Please fill in the required fields!");
+return false;
+
+} else if (!(email).match(emailReg)) {
+alert("Try a valid email!");
+return false;
+} else {
+return true;
+}
+}
+//End Submit Form Script
+</script>
+  </head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <body>
+		<div class="button1">
+		<a href="https://www.google.com/"><img border="0" alt="google" src="images/gogle.png" width="100" height="100">
+		</div>
+		<div class="button2">
+		<a href="https://twitter.com/"><img border="0" alt="twitter" src="images/twiter.png" width="100" height="100">
+		</div>
+		<div class="button3">
+		<a href="https://www.facebook.com/"><img border="0" alt="facebook" src="images/facbroken.png" width="100" height="100">
+		</div>
+
+				<div style="background-color:transparent; position: fixed;">
+				<ul style=""
+			   <li><a href="Main.html"> </a></li>
+			   <li><a href="Main.html"> Home</a></li>
+			   <li><a href="rent.html"> Rent </a></li>
+			   <li><a href="store.html"> Store </a></li>
+			   <li><a href="scene.html"> Scenery </a></li>
+			   <li><a href="risk.html"> Contact us </a></li>
+			 </ul>
+			</div>
+
+
+<div class="alpha">
+<p class="beta">Thank you for choosing Wild River Rapids for you river running expedition! Please feel free to contact us at any point to inquire about our services!</p>
+<p class="beta">Contact us by phone during our operating hours of Mon-Fri: 7-11, Sat-Sun: 5-11 at (1)601-577-5115</p>
+<p></p>
+<p class="beta">Or contact us at any point via email: WildRiverRapids@gmail.com</p>
+<p class="beta">Like us on Facebook and share your adventure stories!</p>
+<p class="beta">For further support, please fill out a support ticket and allow for 1-2 buisness days</p>
+</div>
+<!-- Submit Form Body -->
+<div class="container">
+<div class="main">
+<form style="margin:100px 0px 0px 0px;"action="#" method="post" name="form_name" id="form_id" class="form_class" >
+<h2>Wild River Rapids</h2>
+<label>Name :</label>
+<input type="text" name="name" id="name" placeholder="Name" />
+<label>Email :</label>
+<input type="text" name="email" id="email" placeholder="Valid Email" />
+<textarea rows="4" cols="35" name="comment" form="uerform" placeholder="Enter your comments here!"></textarea></br>
+<input type="button" name="submit_name" id="btn_name" value="Submit!" onclick="submit_by_name()"/>
+</div>
+</div>
+<!-- End Submit Form Body -->
+  </body>
+</html>
