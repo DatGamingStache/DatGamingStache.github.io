@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <meta http-equiv="refresh" content="1"> 
+  <title> Food Recipes Website </title>
+<style>
+<!-- Halloween Style halloween recipes part of the site -->
+body { background-image: ur("");
+background-repeat: no-repeat;
+background-color: #4d0000;
+background-size:}
+
+/* navigation background image */
+div.nav {font-size: 20pt;
+		 text-align: left;
+		 background-image: url("foodimages/bcknav.jpg");
+		 background-size: 150px 150px;
+		 }
+
+
+
+a:link {color:white;
+		text-decoration:none;}
+/* Start of navigation bar */
+ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	position: absolute;
+	margin: 10px 10px 10px 20px;
+	
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #FF9100; <!-- Halloween orange hex color -->
+}
+
+/* image gallery specs - border: 1px solid #ccc
+	border-radius: 10px; for div img incase wanting to put back border */
+div.img {
+    margin: 5px;
+    float: left;
+    width: 280px;
+	padding: 20px;
+}
+
+/*
+div.img:hover {
+    border: 1px solid #777;
+}
+*/
+div.img img {
+    width: 280px;
+    height: 300px;
+	border-radius: 10px;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+	background-color: white;
+	border-radius: 10px;
+	font-size: 12pt;
+}
+
+input[type=text] {
+    width: 200px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+	background-image: url('foodimages/recipebook.png');
+    background-position: 5px 5px;
+    background-repeat: no-repeat;
+	background-size: 30px 30px;
+    padding: 12px 20px 12px 40px;
+	margin: 10px 10px 10px 1115px;
+	position: absolute;
+	
+}
+
+input[type=text]:focus {
+    width: 15.0%;
+}
+
+div.banner {color:white; text-align:center; font-size: 50pt; }
+
+</style>
+</head>
+
+<body> <!-- style="background-color:black;"
+-->
+<div class="banner">Recipes-On-The-Go </div>
+
+<div class="nav">
+
+<ul>
+  <li><a href="foodweb.html">Home</a></li>
+  <li><a class="active" href="hallrecipes.html">Halloween Recipes</a></li>
+  <li><a href="christmasrecipes.html">Christmas Recipes</a></li>
+  <li><a href="">About</a></li>
+  <li><a href="">Contact</a></li>
+</ul>
+<input type="text" name="search" placeholder="Search Recipes...">
+<img src="foodimages/bcknav.jpg" style="width: 1px; height: 72px;">
+</div>
+
+<!-- Start of Halloween Recipe Gallery -->
+<div class="img">
+  <a target="_blank" href="foodimages/witchfingers.jpg">
+    <img src="foodimages/witchfingers.jpg" alt="Witch’s Finger Cookies" width="300" height="200">
+  </a>
+  <div class="desc">Witch’s Finger Cookies</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="foodimages/spidercookies.jpg">
+    <img src="foodimages/spidercookies.jpg" alt="Spider Chocolate Chip Cookies" width="300" height="200">
+  </a>
+  <div class="desc">Spider Chocolate Chip Cookies</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="foodimages/choceyeball.jpg">
+    <img src="foodimages/choceyeball.jpg" alt="Peanut Butter and Chocolate Eyeballs" width="300" height="200">
+  </a>
+  <div class="desc">Peanut Butter and Chocolate Eyeballs</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="foodimages/braincake.jpg">
+    <img src="foodimages/braincake.jpg" alt="Brain Cake" width="300" height="200">
+  </a>
+  <div class="desc">Brain Cake</div>
+</div>
+
+
+<div class="img">
+  <a target="_blank" href="foodimages/battreats.jpg">
+    <img src="foodimages/battreats.jpg" alt="Mini Bat Treats" width="300" height="200">
+  </a>
+  <div class="desc">Mini Bat Treats</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="foodimages/mummypretzels.jpg">
+    <img src="foodimages/mummypretzels.jpg" alt="White Chocolate Mummy Pretzels" width="300" height="200">
+  </a>
+  <div class="desc">White Chocolate Mummy Pretzels</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="foodimages/pumpkinpatch.jpg">
+    <img src="foodimages/pumpkinpatch.jpg" alt="Pumpkin Patch Cupcakes" width="300" height="200">
+  </a>
+  <div class="desc">Pumpkin Patch Cupcakes</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="foodimages/ghostcookies.jpg">
+    <img src="foodimages/ghostcookies.jpg" alt="Almond Meringue Ghost Cookies" width="300" height="200">
+  </a>
+  <div class="desc">Almond Meringue Ghost Cookies</div>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+ <head>
+<meta name="description" content="This is a website containing 
+recipes for many types of food." />
+		
+<meta name="keywords" content="food, recipes, halloween, christmas, food recipes" />
+		
+<meta name="author" content="Triston Lewis" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title> Food Recipes Website </title>
+<style>
+
+body {background-color: #4d0000;}
+
+/* navigation background image */
+
+div.nav {font-size: 20pt;
+		 text-align: left;
+		 background-image: url("foodimages/bcknav.jpg");
+		 background-size: 150px 150px;
+		 }
+
+
+
+a:link {color:white;
+		text-decoration:none;}
+/* Start of navigation bar */
+ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	position: absolute;
+	margin: 10px 10px 10px 20px;
+	
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #990000;
+}
+
+div.img {
+    margin: 5px 20px;
+    float: left;
+    width: 280px;
+	padding: 50px;
+}
+
+div.img img {
+    width: 280px;
+    height: 300px;
+	border-radius: 10px;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+	background-color: white;
+	border-radius: 10px;
+	font-size: 15pt;
+}
+
+input[type=text] {
+    width: 200px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+	background-image: url('foodpageicons/recipebook.png');
+    background-position: 5px 5px;
+    background-repeat: no-repeat;
+	background-size: 30px 30px;
+    padding: 12px 20px 12px 40px;
+	margin: 10px 10px 10px 1115px;
+	position: absolute;
+	
+}
+
+input[type=text]:focus {
+    width: 15.0%;
+}
+
+div.banner {color:white; 
+			text-align:center; 
+			font-size: 50pt; }
+
+
+
+</style>
+</head>
+
+<body> 
+<div class="banner">Recipes-On-The-Go </div>
+
+<div class="nav">
+
+<ul>
+  <li><a class="active" href="foodweb.html">Home</a></li>
+  <li><a href="hallrecipes.html">Halloween Recipes</a></li>
+  <li><a href="">Thanksgiving Recipes</a></li>
+  <li><a href="">Christmas Recipes</a></li>
+  <li><a href="aboutfoodpage.html">About</a></li>
+  <li><a href="">Contact</a></li>
+</ul>
+<input type="text" name="search" placeholder="Search Recipes...">
+<img src="foodimages/bcknav.jpg" style="width: 1px; height: 72px;">
+</div>
+
+
+
+
+<img src="foodimages/bckfood.jpg" alt="Cutting board with vegetables" style="width: 1885px; height: 500px; border: 2px solid black;">
+
+<!-- start of image gallery for recipes *when adding hieght and width to the css div.img container
+it messed up the positioning to of the images*-->
+<div class="img">
+  <a target="_blank" href="foodimages/bars.jpg">
+    <img src="foodimages/bars.jpg" alt="Carrot Zucchini Bars With Lemon Cream Cheese Frosting" width="300" height="200">
+  </a>
+  <div class="desc">Carrot Zucchini Bars With Lemon Cream Cheese Frosting</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="foodimages/roastedlemonshrimp.jpg">
+    <img src="foodimages/roastedlemonshrimp.jpg" alt="Roasted Lemon Garlic Herb Shrimp" width="300" height="200">
+  </a>
+  <div class="desc">Roasted Lemon Garlic Herb Shrimp</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="foodimages/crispycajunshrimp.jpg">
+    <img src="foodimages/crispycajunshrimp.jpg" alt="Crispy cajun shrimp fettuccine" width="300" height="200">
+  </a>
+  <div class="desc">Crispy Cajun Shrimp Fettuccine</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="foodimages/chickenbaconranch.jpg">
+    <img src="foodimages/chickenbaconranch.jpg" alt="Chicken-Bacon-Ranch Baked Penne" width="300" height="200">
+  </a>
+  <div class="desc">Chicken-Bacon-Ranch Baked Penne</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="foodimages/honeygarlicchicken.jpg">
+    <img src="foodimages/honeygarlicchicken.jpg" alt="Honey Garlic Chicken" width="300" height="200">
+  </a>
+  <div class="desc">Honey Garlic Chicken</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="foodimages/buffalochickendip.jpg">
+    <img src="foodimages/buffalochickendip.jpg" alt="Buffalo Chicken Dip" width="300" height="200">
+  </a>
+  <div class="desc">Buffalo Chicken Dip</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="foodimages/phillycheese.jpg">
+    <img src="foodimages/phillycheese.jpg" alt="Philly Cheese Steak Sandwiches" width="300" height="200">
+  </a>
+  <div class="desc">Philly Cheese Steak Sandwiches</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="foodimages/creamybuffalochickenalfredo.jpg">
+    <img src="foodimages/creamybuffalochickenalfredo.jpg" alt="Creamy Buffalo Chicken Broccoli Alfredo" width="300" height="200">
+  </a>
+  <div class="desc">Creamy Buffalo Chicken Broccoli Alfredo</div>
+</div>
+
+
+
+
+
+</body>
+</html>	 

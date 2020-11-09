@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <meta http-equiv="refresh" content="1"> 
+  <title> Food Recipes Website </title>
+<style>
+
+body {background-color: #4d0000;}
+
+/* navigation background image */
+
+div.nav {font-size: 20pt;
+		 text-align: left;
+		 background-image: url("foodimages/bcknav.jpg");
+		 background-size: 150px 150px;
+		 }
+
+
+
+a:link {color:white;
+		text-decoration:none;}
+/* Start of navigation bar */
+ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	position: absolute;
+	margin: 10px 10px 10px 20px;
+	
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #990000;
+}
+
+input[type=text] {
+    width: 200px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+	background-image: url('foodpageicons/recipebook.png');
+    background-position: 5px 5px;
+    background-repeat: no-repeat;
+	background-size: 30px 30px;
+    padding: 12px 20px 12px 40px;
+	margin: 10px 10px 10px 1115px;
+	position: absolute;
+	
+}
+
+input[type=text]:focus {
+    width: 15.0%;
+}
+
+div.banner {color:white; 
+			text-align:center; 
+			font-size: 50pt; }
+
+
+div.aboutdesc {float: left;
+			   position:absolute;
+			   width:300px;
+			   height:200px;
+			   border: 5px solid #333;
+			   font-family: georgia;
+			   font-size: 18pt;
+			   text-align:center;
+			   color:white;
+			   margin: 50px 800px 10px 760px;
+			   padding: 38px;
+			   }
+			   
+h1, h5 {text-align:center; color:white;}
+</style>
+</head>
+
+<body>
+<div class="banner">Recipes-On-The-Go </div>
+
+<div class="nav">
+
+<ul>
+  <li><a href="foodweb.html">Home</a></li>
+  <li><a href="hallrecipes.html">Halloween Recipes</a></li>
+  <li><a href="">Thanksgiving Recipes</a></li>
+  <li><a href="">Christmas Recipes</a></li>
+  <li><a class="active" href="aboutfoodpage.html">About</a></li>
+  <li><a href="">Contact</a></li>
+</ul>
+<input type="text" name="search" placeholder="Search Recipes...">
+<img src="foodimages/bcknav.jpg" style="width: 1px; height: 72px;">
+</div>
+
+<br />
+
+<h1>About Recipes-On-The-Go </h1>
+<div class="aboutdesc">
+<p style="margin-right: 5px;">This website is a database of recipes for your convenience.
+On this website there are many recipes of all kinds ranging from seasonal to everyday recipes.</p>
+</div>
+<h5> Created and Designed by: Triston Lewis </h5>
+</body>
+</html>	 
